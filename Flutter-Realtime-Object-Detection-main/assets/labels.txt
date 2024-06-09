@@ -1,0 +1,20 @@
+eat
+sleep
+open
+walk
+love
+rich
+poor
+patient
+intelligent
+greeting
+friend
+enemy
+house
+video
+engineer
+sign language translator
+barber
+doctor
+travelling
+appointment

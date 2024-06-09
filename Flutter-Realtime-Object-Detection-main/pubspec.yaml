@@ -1,0 +1,35 @@
+name: flutter_realtime_object_detection_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  camera: ^0.11.0+1
+  flutter:
+    sdk: flutter
+  flutter_tflite: ^1.0.1
+  image_picker: ^0.8.4+1
+  get: ^4.6.6
+  image: ^3.3.0
+  video_player: ^2.3.0
+  permission_handler: ^11.3.1
+  export_video_frame: ^0.0.7
+  video_thumbnail: ^0.5.3
+  ffmpeg_kit_flutter: ^4.5.1
+  media_info: ^0.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/model.tflite
+    - assets/labels.txt
